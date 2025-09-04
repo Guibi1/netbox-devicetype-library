@@ -1,0 +1,19 @@
+---
+manufacturer: TrendNet
+model: TFC-1000MGB
+slug: trendnet-tfc-1000mgb
+u_height: 0
+is_full_depth: false
+airflow: front-to-rear
+weight: 354
+weight_unit: g
+comments: '[TFC-1000MGB Datasheet](https://downloads.trendnet.com/TFC-1000MGB/DataSheet/EN_Spec_TFC-1000MGB.pdf)'
+power-ports:
+  - name: DC Input
+    type: dc-terminal
+    maximum_draw: 6
+interfaces:
+  - name: Ethernet
+    type: 1000base-t
+  - name: Fiber
+    type: 1000base-sx
