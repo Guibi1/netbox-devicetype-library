@@ -1,0 +1,30 @@
+---
+manufacturer: Hirschmann
+model: Modular Gigabit Ethernet Railswitch
+slug: hirschmann-railswitch-msp30
+part_number: MSP30
+airflow: passive
+weight: 2.95
+weight_unit: kg
+comments: '[MSP30 Datasheet](https://www.industrialnetworking.com/pdf/MSP30-16040SCZ999HH.pdf)'
+power-ports:
+  - name: DC Input 1
+    type: dc-terminal
+    allocated_draw: 50
+    maximum_draw: 80
+  - name: DC Input 2
+    type: dc-terminal
+    allocated_draw: 50
+    maximum_draw: 80
+interfaces:
+  - name: '1'
+    type: 1000base-tx
+  - name: '2'
+    type: 1000base-tx
+  - name: '3'
+    type: 1000base-tx
+  - name: '4'
+    type: 1000base-tx
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
