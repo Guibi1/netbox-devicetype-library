@@ -3,6 +3,8 @@ manufacturer: Hirschmann
 model: Modular Gigabit Ethernet Railswitch
 slug: hirschmann-railswitch-msp30
 part_number: MSP30
+u_height: 1
+is_full_depth: false
 airflow: passive
 weight: 2.95
 weight_unit: kg
@@ -22,7 +24,12 @@ interfaces:
     mgmt_only: true
 module-bays:
   - name: Slot 1
+    position: 1
   - name: Slot 2
+    position: 2
   - name: Slot 3
+    position: 3
   - name: Slot 4
+    position: 4
   - name: Slot 5
+    position: 5
