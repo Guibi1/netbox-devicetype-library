@@ -1,0 +1,24 @@
+---
+manufacturer: Dualcomm
+model: Dualcomm ETAP-3105 Failsafe Network Tap
+slug: dualcomm-failsafe-etap-3105
+part_number: ETAP-3105
+u_height: 1
+is_full_depth: false
+airflow: passive
+comments: '[MSP30 Datasheet](https://covertel.com.au/wp-content/uploads/2020/05/SPECIFICATIONS-ETAP-3105.pdf)'
+power-ports:
+  - name: DC Input
+    type: dc-terminal
+    maximum_draw: 5
+interfaces:
+  - name: Inline A
+    type: 1000base-t
+  - name: Inline B
+    type: 1000base-t
+  - name: Monitor A+B
+    type: 1000base-t
+  - name: Monitor A
+    type: 1000base-t
+  - name: Monitor B
+    type: 1000base-t
