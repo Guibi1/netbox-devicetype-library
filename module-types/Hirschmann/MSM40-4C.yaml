@@ -1,0 +1,18 @@
+---
+manufacturer: Hirschmann
+model: Railswitch Module MSM40-4C-CE
+slug: hirschmann-railswitch-module-msm40-4c-ce
+part_number: MSM40-C1C1C1C1SZ9HH9E
+airflow: passive
+weight: 214
+weight_unit: g
+comments: '[MSM40 4C Datasheet](https://catalog.belden.com/index.cfm?event=config&p=MSM40-C1C1C1C1SZ9HH9E&c=Config225225#)'
+interfaces:
+  - name: Port/{module}/1
+    type: 1000base-x-sfp
+  - name: Port/{module}/2
+    type: 1000base-x-sfp
+  - name: Port/{module}/3
+    type: 1000base-x-sfp
+  - name: Port/{module}/4
+    type: 1000base-x-sfp

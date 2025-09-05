@@ -1,0 +1,18 @@
+---
+manufacturer: Hirschmann
+model: Railswitch Module MSM40-4TX-CE
+slug: hirschmann-railswitch-module-msm40-4tx-ce
+part_number: MSM40-T1T1T1T1SZ9HH9E
+airflow: passive
+weight: 193
+weight_unit: g
+comments: '[MSM40 4TX Datasheet](https://catalog.belden.com/index.cfm?event=config&p=MSM40-T1T1T1T1SZ9HH9E&c=Config225225#)'
+interfaces:
+  - name: Port/{module}/1
+    type: 1000base-tx
+  - name: Port/{module}/2
+    type: 1000base-tx
+  - name: Port/{module}/3
+    type: 1000base-tx
+  - name: Port/{module}/4
+    type: 1000base-tx
